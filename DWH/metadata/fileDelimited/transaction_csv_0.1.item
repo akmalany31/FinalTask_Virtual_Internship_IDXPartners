@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_y-P3MQ00Ee-XT-iZ1pA6qA" name="transaction_csv" dataPackage="_y-P3Mg00Ee-XT-iZ1pA6qA" Server="Localhost 127.0.0.1" FilePath="C:/Users/62838/Downloads/transaction_csv.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_y-P3Mg00Ee-XT-iZ1pA6qA" name="default" dataManager="_y-P3MQ00Ee-XT-iZ1pA6qA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_y-P3Mw00Ee-XT-iZ1pA6qA" id="_pax84A00Ee-XT-iZ1pA6qA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_y-P3NA00Ee-XT-iZ1pA6qA" label="transaction_id_account_id_transaction_date_amount_transaction_type_branch_id" length="45" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
